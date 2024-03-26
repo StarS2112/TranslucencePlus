@@ -21,6 +21,13 @@
 	 --accent-opacity: 1;
 	 --accent-text-color: #cecece; /*	-	*/
  
+	 --mention-hue: 12;
+	 --mention-saturation: 0%;
+	 --mention-lightness: 50%;
+	 --mention-text-color: #ffffff; /*	-	*/
+	 --mention-hsl: var(--mention-hue),calc(var(--mention-saturation) * var(--saturation-factor)),var(--mention-lightness);
+	 --mention-opacity: 0.1;
+ 
 	 --sidebar-color: rgba(0,0,0,0.50);
 	 --main-content-color: rgba(0,0,0,0.50); /*	-	*/
  
@@ -100,6 +107,11 @@
  .replying-eZ7p5z {
 	 border-radius: var(--app-radius);
  }
+ 
+ .element {
+	 background-color: hsla(var(--mention-hsl), var(--mention-opacity)); /* Applying dark-ish background color */
+	 color: var(--mention-text-color); /* Applying white-gray text color */
+   }
  
  .mentioned-Tre-dv:before,
  .replying-eZ7p5z:before {
