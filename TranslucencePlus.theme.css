@@ -10,8 +10,8 @@
  @import url(https://stars2112.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
  :root {
-	 --app-bg: url(hhttps://i.ibb.co/xFLbHvV/background-new.jpg);
-	 --app-blur: 6px;
+	 --app-bg: url(https://media.discordapp.net/attachments/511141712526180363/1222472971273113700/background_new.jpg?ex=661657ac&is=6603e2ac&hm=20c54767781bd5b07c143da7ad8fd5ab9e5e287f5bdfa411083ad029d84ba6db&=&format=webp&width=748&height=499);
+	 --app-blur: 20px;
 	 --app-margin: 0px;
 	 --app-radius: 8px; /*	-	*/
 	 
@@ -28,8 +28,8 @@
 	 --mention-hsl: var(--mention-hue),calc(var(--mention-saturation) * var(--saturation-factor)),var(--mention-lightness);
 	 --mention-opacity: 0.1;
  
-	 --sidebar-color: rgba(0,0,0,0.50);
-	 --main-content-color: rgba(0,0,0,0.50); /*	-	*/
+	 --sidebar-color: rgba(0, 0, 0, 0.4);
+	 --main-content-color: rgba(0, 0, 0, 0.4); /*	-	*/
  
 	 --message-color: rgba(0,0,0,0);
 	 --message-radius: 8px;
